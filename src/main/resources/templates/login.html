@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>login Page</title>
+    <meta name="description" content="natalbank employee management system">
+    <link rel="stylesheet" href="../static/css/loginPage.css" th:href="@{/css/loginPage.css}" >
+</head>
+<body>
+    <div class="container">
+        <header>
+           <!--<img class="logo" src="../static/images/natalbank.jpg" th:src="@{/images/natalbank.jpg}" width="50"/>-->
+           <h3>NATAL BANK CORP</h3>
+           <h3>Employees Management System</h3>
+        </header>
+        <nav></nav>
+        <main>
+            
+            <div class="loginform">
+                <form action="#" method="post" >
+        
+                <label for="username">Login name</label>
+                <br/>
+                <input type="text" name="username" id="username" placeholder="username" required="required"/>
+                <br>
+                <label for="password">password</label>
+                <br/>
+                <input type="password" name="password" id="password" placeholder="password" required="required"/>
+                <br/>
+                <br/>
+                <input type="submit" value="login" class="button">
+                </form>
+            </div>
+           
+        </main>
+        <footer>
+            <small>&copy; Copyright 2021, Natal Bank Corp pty(Ltd)</small>
+        </footer>
+    </div>
+</body>
+</html>

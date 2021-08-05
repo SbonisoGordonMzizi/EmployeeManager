@@ -1,0 +1,59 @@
+html{
+height: 100%;
+}
+body{
+   background-color: #666666;
+   background-image: url("../images/natalbank.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: rgba(10, 10, 10, 0.24);
+    width: 1024px;
+    text-align: center;
+    text-decoration: rgb(44, 43, 1);
+    padding-bottom: 2px;
+}
+header h3{
+    color: rgba(0, 0, 0, 0.829);
+}
+nav{
+    width: 1024px;
+    height: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-decoration: rgb(41, 37, 1);
+}
+nav h4{
+  color: rgba(141, 132, 5, 0.822);
+}
+main{
+    width: 1024px;
+    height: 400px;
+
+}
+
+footer{
+    background-color: rgba(10, 10, 10, 0.247);
+    width: 1024px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 50px;
+    text-align: center;
+}
+.loginform{
+    width: 512px;
+    height: 300px;
+    margin-right: auto;
+    padding-top: 40px;
+    text-align: center;
+}
+
