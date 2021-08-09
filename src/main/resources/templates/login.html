@@ -9,33 +9,29 @@
 <body>
     <div class="container">
         <header>
-           <!--<img class="logo" src="../static/images/natalbank.jpg" th:src="@{/images/natalbank.jpg}" width="50"/>-->
-           <h3>NATAL BANK CORP</h3>
-           <h3>Employees Management System</h3>
-        </header>
-        <nav></nav>
-        <main>
             
+        </header>
+        <main>
             <div class="loginform">
                 <form action="#" method="post" >
-        
-                <label for="username">Login name</label>
-                <br/>
-                <input type="text" name="username" id="username" placeholder="username" required="required"/>
-                <br>
-                <label for="password">password</label>
-                <br/>
-                <input type="password" name="password" id="password" placeholder="password" required="required"/>
-                <br/>
-                <br/>
-                <input type="submit" value="login" class="button">
+                <div class="usernamewrap">
+                    <input type="text" name="username" id="username" placeholder="Username" required="required" class="username"/>
+                </div>
+                
+                <div class="passwordwrap">
+                    <input type="password" name="password" id="password" placeholder="Password" required="required" class="password"/>
+                </div>
+                <div class="buttonwrap">
+                    <input type="submit" value="Login" class="button">
+                </div>
                 </form>
+            </div>
+            <div class="sysname">
+                <h1>Employees Management System</h1>
             </div>
            
         </main>
-        <footer>
-            <small>&copy; Copyright 2021, Natal Bank Corp pty(Ltd)</small>
-        </footer>
+
     </div>
 </body>
 </html>

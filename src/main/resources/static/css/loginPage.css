@@ -10,50 +10,72 @@ body{
 }
 
 .container{
-    width: 1024px;
+    
     margin-left: auto;
     margin-right: auto;
 }
-
 header{
-    background-color: rgba(10, 10, 10, 0.24);
-    width: 1024px;
-    text-align: center;
-    text-decoration: rgb(44, 43, 1);
-    padding-bottom: 2px;
+
+    height: 120px;
 }
-header h3{
-    color: rgba(0, 0, 0, 0.829);
-}
-nav{
-    width: 1024px;
-    height: 50px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    text-decoration: rgb(41, 37, 1);
-}
-nav h4{
-  color: rgba(141, 132, 5, 0.822);
-}
+   
 main{
-    width: 1024px;
+    width: 100%;
     height: 400px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
-footer{
-    background-color: rgba(10, 10, 10, 0.247);
-    width: 1024px;
-    padding-bottom: 2px;
-    padding-top: 2px;
-    margin-top: 50px;
-    text-align: center;
-}
+
 .loginform{
-    width: 512px;
+    width: 30%;
     height: 300px;
     margin-right: auto;
-    padding-top: 40px;
+    text-align: center;
+   
+
+}
+.username, .password{
+    width: 100%;
+    height: 2rem;
+    border: 0.2rem solid rgba(163, 148, 62, 0.836);
+    border-radius: 1000px;
+    color: rgba(136, 136, 135, 0.685);
+    font-size: 1.3rem;
+    background-color: rgba(18, 18, 31, 0.068);
+    text-align: center;
+
+    
+}
+.button{
+   background-color: rgba(18, 18, 31, 0.089);
+   width: 80%;
+   height: 2rem;
+   border: 0.2rem solid rgba(163, 148, 62, 0.836);
+   border-radius: 1000px;
+   color: rgba(163, 148, 62, 0.836);
+   font-size: 1.3rem;
+
+}
+.usernamewrap{
+    margin-bottom: 1rem;
+}
+.passwordwrap{
+    margin-bottom: 1rem;
+}
+.buttonwrap{
+    margin-bottom: 1rem;
     text-align: center;
 }
+.sysname{
+    width: 30%;
+    text-align: center;
+    color: rgba(247, 234, 165, 0.849);
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+
 
