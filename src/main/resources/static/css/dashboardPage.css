@@ -47,11 +47,18 @@ footer{
 .loginEmployeer{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
-    width: 40%;
+    width: 30%;
     padding-bottom: 5px;
     color: rgba(247, 234, 165, 0.849);
     font-weight: bold;
-
+    text-align: left;
+} 
+.pic{
+    width: 10%;
+    padding-top: 10px;   
+}
+.pic img{
+    border-radius: 50%;
 }
 .logoutButton{
     width: 20%;
