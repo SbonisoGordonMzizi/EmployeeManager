@@ -4,9 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="../static/css/dashboardPage.css">
     <title>Dashboard</title>
+
 </head>
 <body>
-    <div class=></div>
+    <div class="container">
+        <header>
+           <div class="logo">
+              <h4>Logo</h4>
+           </div>
+           <div class="loginEmployeer">
+               <p>Currently Login User</p>
+               <p>Username: Vice </p>
+               <p> UserType: Admin or Non-admin</p>
+           </div>
+           <div class="logoutButton">
+              <h4>LogOut</h4>
+           </div>
+        </header>
+        <main>
+            <div class="addEmployee">
+                 <a href="#">addEmployee</a>
+            </div>
+
+            <div class="viewEmployees">
+                <a href="#">viewEmployees</a>
+            </div>
+
+            <div class="teminateEmployee">
+                <form action="#" method="post">
+                   <div class="button">
+                      <input type="submit" value="teminateEmployee" class="teminateEmployeeButton">
+                   </div>
+                   <div class="employeeId">
+                      <input type="text" name="teminateEmployee" id="teminateEmployee" class="teminateEmployeeInput" placeholder="Employee ID" required>
+                   </div>
+                </form>
+            </div>
+
+            <div class="editEmployeeProfile">
+                <form action="#" method="post">
+                   <div class="button">
+                       <input type="submit" value="editEmployeeProfile" class="editEmployeeProfileButton">
+                   </div>
+                   <div class="employeeId">
+                       <input type="text" name="editEmployeeProfile" id="editEmployeeProfile" class="editEmployeeProfileInput" placeholder="Employee ID" required>
+                   </div>
+                </form>
+            </div>
+
+            <div class="searchEmployee">
+                <form action="#" method="post">
+                    <div class="button">
+                       <input type="submit" value="searchEmployee" class="searchEmployeeButton">
+                    </div>
+                    <div class="employeeId">
+                       <div class="byid">
+                          <input type="radio" name="searchEmployeeRadio" id="byId" value="byid">
+                          <label for="byId">byId</label>
+                       </div>
+                       <div class="byfirstname">
+                         <input type="radio" name="searchEmployeeRadio" id="byFirstName" value="byfirstname">
+                         <label for="byFirstName">byFirstName</label>
+                       </div>
+                       <div class="bylastname">
+                          <input type="radio" name="searchEmployeeRadio" id="byLastName" value="bylastname">
+                          <label for="byLastName">byLastName</label>
+                       </div>
+                       <div class="bysalary">
+                         <input type="radio" name="searchEmployeeRadio" id="bySalary" value="bysalary">
+                         <label for="bySalary">bySalary</label>
+                       </div>
+                       <div class="bydepartment">
+                         <input type="radio" name="searchEmployeeRadio" id="byDepartment" value="bydepartment">
+                         <label for="byDepartment">byDepartment</label>
+                    </div>
+                    </div>
+                </form>
+            </div>
+    
+        </main>
+        <footer>
+            <p>Natal Bank Corp. © 2021</p>
+            <p>IT Department No: 031 7773241</p>
+        </footer>
+    </div>
 </body>
 </html>

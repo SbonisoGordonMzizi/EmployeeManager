@@ -1,0 +1,145 @@
+body{
+    background-color: rgba(25, 25, 36, 0.062);
+    margin: 0px 0px;
+}
+.container{
+  
+    
+}
+header{
+    background-color: rgba(23, 23, 53, 0.767);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    margin: 0px;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    height: 110px;
+    text-align: center;
+}
+main{
+    display:flex;
+    justify-content: space-between;
+    min-height: 550px;
+    margin-top: 120px;
+    text-align: center;
+
+}
+
+footer{
+    background-color: rgba(23, 23, 53, 0.767);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 20%;
+    padding-top: 20px;
+    
+}
+.loginEmployeer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    width: 40%;
+    padding-bottom: 5px;
+    color: rgba(247, 234, 165, 0.849);
+    font-weight: bold;
+
+}
+.logoutButton{
+    width: 20%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.addEmployee{
+  
+  width: 18%;
+  padding: 50px 2px;
+}
+
+.viewEmployees{
+
+    width: 18%;
+    padding: 50px 2px;
+}
+
+.teminateEmployee{
+ 
+    width: 18%;
+    padding: 50px 2px;
+}
+
+.editEmployeeProfile{
+
+    width: 18%;
+    padding: 50px 2px;
+}
+
+.searchEmployee{
+   
+    width: 18%;
+    padding: 50px 2px;
+    text-align:left;
+}
+a{
+    background-color: rgba(18, 18, 31, 0.089);
+    border: 0.2rem solid rgba(163, 148, 62, 0.836);
+    border-radius: 1000px;
+    display: block;
+    height: 30px;
+    padding-top: 5px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgba(163, 148, 62, 0.836);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.searchEmployeeButton, .editEmployeeProfileButton,.teminateEmployeeButton{
+    background-color: rgba(18, 18, 31, 0.089);
+    width: 100%;
+    border-radius: 1000px;
+    border: 0.2rem solid rgba(163, 148, 62, 0.836);
+    height: 43px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+    color: rgba(163, 148, 62, 0.836);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.byid, .byfirstname,.bylastname,.bysalary,.bydepartment{
+    margin-bottom: 15px;
+}
+
+a:hover,.searchEmployeeButton:hover,.editEmployeeProfileButton:hover,
+.teminateEmployeeButton:hover{
+    background-color: rgba(51, 45, 45, 0.37);
+}
+
+.editEmployeeProfileInput,.teminateEmployeeInput{
+    border: 0.2rem solid rgba(163, 148, 62, 0.836);
+    border-radius: 1000px;
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.logoutButton h4{
+    border: 0.2rem solid rgba(247, 234, 165, 0.849);
+    background-color: rgba(18, 18, 31, 0.089);
+    color: rgba(247, 234, 165, 0.849);
+    border-radius: 1000px;
+    width: 95%;
+    height: 30px;
+    text-align: center;
+    padding-top: 4px;
+}
