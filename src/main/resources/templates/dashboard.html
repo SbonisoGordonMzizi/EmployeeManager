@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="../static/css/dashboardPage.css">
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link rel="stylesheet" href="../static/css/dashboardPage.css" th:href="@{/css/dashboardPage.css}"/>
     <title>Dashboard</title>
 
 </head>
@@ -20,7 +20,7 @@
                <p> UserType: Admin</p>
             </div>
             <div class="pic">
-                <img src="../static/images/img_avatar.png" alt="Employee Profile Picture" width="100px">
+                <img  src="../static/images/img_avatar.png" th:src="@{/images/img_avatar.png}" alt="Employee Profile Picture" width="100px"/>
             </div>
            <div class="logoutButton">
               <h4>LogOut</h4>
@@ -38,10 +38,10 @@
             <div class="teminateEmployee">
                 <form action="#" method="post">
                    <div class="button">
-                      <input type="submit" value="teminateEmployee" class="teminateEmployeeButton">
+                      <input type="submit" value="teminateEmployee" class="teminateEmployeeButton"/>
                    </div>
                    <div class="employeeId">
-                      <input type="text" name="teminateEmployee" id="teminateEmployee" class="teminateEmployeeInput" placeholder="Employee ID" required>
+                      <input type="text" name="teminateEmployee" id="teminateEmployee" class="teminateEmployeeInput" placeholder="Employee ID" required="required"/>
                    </div>
                 </form>
             </div>
@@ -49,10 +49,10 @@
             <div class="editEmployeeProfile">
                 <form action="#" method="post">
                    <div class="button">
-                       <input type="submit" value="editEmployeeProfile" class="editEmployeeProfileButton">
+                       <input type="submit" value="editEmployeeProfile" class="editEmployeeProfileButton"/>
                    </div>
                    <div class="employeeId">
-                       <input type="text" name="editEmployeeProfile" id="editEmployeeProfile" class="editEmployeeProfileInput" placeholder="Employee ID" required>
+                       <input type="text" name="editEmployeeProfile" id="editEmployeeProfile" class="editEmployeeProfileInput" placeholder="Employee ID" required="required"/>
                    </div>
                 </form>
             </div>
@@ -60,27 +60,27 @@
             <div class="searchEmployee">
                 <form action="#" method="post">
                     <div class="button">
-                       <input type="submit" value="searchEmployee" class="searchEmployeeButton">
+                       <input type="submit" value="searchEmployee" class="searchEmployeeButton"/>
                     </div>
                     <div class="employeeId">
                        <div class="byid">
-                          <input type="radio" name="searchEmployeeRadio" id="byId" value="byid">
+                          <input type="radio" name="searchEmployeeRadio" id="byId" value="byid"/>
                           <label for="byId">byId</label>
                        </div>
                        <div class="byfirstname">
-                         <input type="radio" name="searchEmployeeRadio" id="byFirstName" value="byfirstname">
+                         <input type="radio" name="searchEmployeeRadio" id="byFirstName" value="byfirstname"/>
                          <label for="byFirstName">byFirstName</label>
                        </div>
                        <div class="bylastname">
-                          <input type="radio" name="searchEmployeeRadio" id="byLastName" value="bylastname">
+                          <input type="radio" name="searchEmployeeRadio" id="byLastName" value="bylastname"/>
                           <label for="byLastName">byLastName</label>
                        </div>
                        <div class="bysalary">
-                         <input type="radio" name="searchEmployeeRadio" id="bySalary" value="bysalary">
+                         <input type="radio" name="searchEmployeeRadio" id="bySalary" value="bysalary"/>
                          <label for="bySalary">bySalary</label>
                        </div>
                        <div class="bydepartment">
-                         <input type="radio" name="searchEmployeeRadio" id="byDepartment" value="bydepartment">
+                         <input type="radio" name="searchEmployeeRadio" id="byDepartment" value="bydepartment"/>
                          <label for="byDepartment">byDepartment</label>
                     </div>
                     </div>

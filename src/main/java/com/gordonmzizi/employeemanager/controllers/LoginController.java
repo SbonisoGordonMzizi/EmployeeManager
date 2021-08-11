@@ -13,5 +13,11 @@ public class LoginController {
         return "login.html";
     }
 
+    @RequestMapping("/dashboard")
+    public String getDashBoard(){
+
+        return "dashboard.html";
+    }
+
 
 }
